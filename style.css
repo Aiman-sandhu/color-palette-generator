@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.palette{
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.container{
+  text-align: center;
+}
+.color-box{
+  width: 200px;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#generate{
+  font-size: 18px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
